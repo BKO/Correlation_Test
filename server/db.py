@@ -37,7 +37,7 @@ def getConnection(dbName):
         connection = connect(
             host='localhost',
             user='root',
-            passwd='diggitydogdog',
+            passwd='your_password_here',
             database=dbName
         )
         print('MySQL Connection Successful')
